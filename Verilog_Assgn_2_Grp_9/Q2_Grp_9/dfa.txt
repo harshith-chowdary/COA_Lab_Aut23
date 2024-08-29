@@ -1,0 +1,21 @@
+#states
+LT
+GT
+COM
+ACC
+#initial
+COM
+#accepting
+ACC
+#alphabet
+L
+G
+E
+#transitions
+LT:$>COM
+GT:$>COM
+COM:L>LT
+COM:G>GT
+COM:E>ACC
+
+// https://ivanzuzak.info/noam/webapps/fsm_simulator/
